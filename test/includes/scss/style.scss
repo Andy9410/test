@@ -1,0 +1,25 @@
+
+//-----------------------------------------------Estilo principal----------------------------------------------//
+
+//Titulo del producto
+.title
+{
+	text-align: center;
+}
+.clsMain
+{	
+	margin-left:430px;
+	margin-right: 500px;
+	margin-top: 40px;
+	width: 500px;
+
+}
+
+hr
+{
+	clear: both;
+}
+@import 'conversacion.scss';		
+@import 'chicoUI.scss';
+@import 'producto.scss';
+@import 'carousel.scss';

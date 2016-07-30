@@ -1,0 +1,111 @@
+//---------------------------------Estilo de conversacion y descripcion -----------------------------------------//
+.clsSolapaDescription 
+{
+	span
+	{
+		padding: 10px;
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+		display: inline-block;	 
+		border-right: 20px solid transparent;
+		border-bottom: 30px solid #3A87AD; 
+		height: 0;
+		line-height: 50px;
+		z-index: 0;
+		position: relative;
+		cursor: pointer;
+
+		&:hover
+	    {
+	    	border-right: 20px solid transparent;
+			border-bottom: 30px solid  #dff0d8;
+	    }
+	}	
+	input
+	{
+		left: 430px;
+		top: 484px;
+		height: 24px;
+		width: 108px;
+		z-index:3;
+		background-color: transparent;
+		border-color: transparent;
+		cursor: pointer;
+		position: absolute;
+		outline: none;
+		
+		&:focus ~ span
+	    {
+			border-right: 20px solid transparent;
+			border-bottom: 30px solid #3A87AD;
+			z-index: 2;
+	    }
+		
+	}
+}
+
+.clsSolapaQuestions
+{
+
+	padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer; 
+    border-right: 5px solid transparent;
+    border-bottom: 30px solid #468847; 
+    height: 0;
+    line-height: 50px;
+    left: 540px;
+    position: absolute; 
+	
+    &:hover
+    {
+    	border-right: 5px solid transparent;
+    	border-bottom: 30px solid  #D9EDF7;
+    }
+}
+
+.interaction 
+{
+	div
+	{
+		float: left;
+	}
+	table
+	{
+		border: 1px solid #ededed;
+		width: 500px;
+		
+		tr td
+		{
+			padding-top: 5px;
+			padding-left: 10px;
+			padding-bottom: 10px;
+		}
+	}
+}
+.clsSaller
+{
+	color: #468847;
+}
+.clsSallerBack
+{
+	td
+	{
+		background-color: #dff0d8;
+	}
+}
+.clsBuyer
+{
+	color: #3A87AD;
+}
+.clsBuyerBack
+{
+	td
+	{
+		background-color: #D9EDF7;
+	}
+}

@@ -1,0 +1,20 @@
+//Hoja de estilo ChicoUI
+
+//Inculimos mixins: 
+	@import '../chicoUI/src/shared/styles/_variables.scss';
+//Incluimos variables  del estilo chicoUI
+	@import '../chicoUI/src/shared/styles/mixins.scss';
+
+//Incluimos estilo chicoUI
+	//Tipografia
+	@import '../chicoUI/src/ui/styles/typography.scss';
+	//Clase box
+	@import '../chicoUI/src/ui/styles/boxes.scss';
+	//Clase dropdown
+	@import '../chicoUI/src/ui/styles/dropdown.scss';
+	//Clase carousel
+	@import '../chicoUI/src/ui/styles/carousel.scss';
+	//Clase tabs
+	@import '../chicoUI/src/ui/styles/tabs.scss';
+	//Clase buttons
+	@import '../chicoUI/src/ui/styles/buttons.scss';
